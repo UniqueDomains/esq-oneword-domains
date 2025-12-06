@@ -5,7 +5,7 @@
 
 We constantly sweep the web to catalog the highest potential .ESQ one-word domains still available to buy.
 
-This dataset contains 4,928 .ESQ one word domains with availability, attractiveness and demand scores.
+This dataset contains 4,929 .ESQ one word domains with availability, attractiveness and demand scores.
 
 If you want to search & filters the complete database of [.ESQ one word domains](https://unique.domains?utm_source=github&utm_medium=dataset&utm_campaign=esq-oneword-domains&utm_content=description.top) (4,928) and analyse SEO, demand and valuation, we've build unique.domains, a SaaS designed for domain investors and solopreneurs.
 
@@ -21,8 +21,8 @@ If you want to search & filters the complete database of [.ESQ one word domains]
 
 | Domain         | Status    | Attract. | Demand | Length | Registrar | Created | Expires |
 | -------------- | --------- | -------- | ------ | ------ | --------- | ------- | ------- |
-| aaa.esq        | available | 70       | 38%    | 3      |           |         |         |
-| aaron.esq      | available | 88       | 32%    | 5      |           |         |         |
+| aaa.esq        | premium   | 70       | 38%    | 3      |           |         |         |
+| aaron.esq      | premium   | 88       | 32%    | 5      |           |         |         |
 | abactinal.esq  | available | 50       | 1%     | 9      |           |         |         |
 | abaft.esq      | available | 43       | 2%     | 5      |           |         |         |
 | abandoned.esq  | available | 58       | 7%     | 9      |           |         |         |
@@ -32,7 +32,7 @@ If you want to search & filters the complete database of [.ESQ one word domains]
 | abatic.esq     | available | 54       | 2%     | 6      |           |         |         |
 | abaxial.esq    | available | 54       | 2%     | 7      |           |         |         |
 | abbatial.esq   | available | 50       | 1%     | 8      |           |         |         |
-| abc.esq        | available | 102      | 41%    | 3      |           |         |         |
+| abc.esq        | premium   | 102      | 41%    | 3      |           |         |         |
 | abdicable.esq  | available | 50       | 1%     | 9      |           |         |         |
 | abdominal.esq  | available | 82       | 5%     | 9      |           |         |         |
 | abdominous.esq | available | 56       | 1%     | 10     |           |         |         |
