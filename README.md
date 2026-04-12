@@ -16,7 +16,7 @@ Daily-updated dataset of available and resale .esq one-word domains from Unique 
 
 **Public extract:** 9,887 rows · **Live catalog:** 9,887 domains
 
-**Last updated:** 2026-04-11  
+**Last updated:** 2026-04-12  
 **Canonical page:** `https://unique.domains/domains/tld/esq`  
 **Best for:** founders, investors, studios
 
@@ -73,14 +73,14 @@ print(df.head())
 | ethereal.esq   | available | $26.99    | $37.99        | 88             | 32     | 8      | name.com         |
 | taxation.esq   | resell    | —         | —             | 66             | 9      | 8      | GoDaddy.com, LLC |
 | seventeen.esq  | premium   | $61.25    | $61.25        | 84             | 62     | 9      | name.com         |
-| adept.esq      | available | $26.99    | $37.99        | 92             | 27     | 5      | name.com         |
-| free.esq       | premium   | $811.25   | $811.25       | 88             | 59     | 4      | name.com         |
 | curative.esq   | available | $26.99    | $37.99        | 92             | 27     | 8      | name.com         |
+| free.esq       | premium   | $811.25   | $811.25       | 88             | 59     | 4      | name.com         |
+| adept.esq      | available | $26.99    | $37.99        | 92             | 26     | 5      | name.com         |
 | cloud.esq      | premium   | $1,688.70 | $1,688.70     | 70             | 59     | 5      | namecheap        |
 | remedial.esq   | available | $26.99    | $37.99        | 86             | 24     | 8      | name.com         |
 | ace.esq        | premium   | $811.25   | $811.25       | 88             | 57     | 3      | name.com         |
 | critical.esq   | available | $26.99    | $37.99        | 82             | 24     | 8      | name.com         |
-| live.esq       | premium   | $811.25   | $811.25       | 108            | 55     | 4      | name.com         |
+| live.esq       | premium   | $811.25   | $811.25       | 108            | 56     | 4      | name.com         |
 | sincere.esq    | available | $26.99    | $37.99        | 72             | 22     | 7      | name.com         |
 | good.esq       | premium   | $811.25   | $811.25       | 82             | 55     | 4      | name.com         |
 | abundant.esq   | available | $26.99    | $37.99        | 80             | 21     | 8      | name.com         |
@@ -143,7 +143,7 @@ See [CHANGELOG.md](./CHANGELOG.md) for the latest snapshot metadata.
 
 Suggested citation:
 
-> Unique Domains. *Available .ESQ One-Word Domains*. Version 2026-04-11. Public GitHub extract for the exact Unique Domains search represented by this repository.
+> Unique Domains. *Available .ESQ One-Word Domains*. Version 2026-04-12. Public GitHub extract for the exact Unique Domains search represented by this repository.
 
 GitHub citation metadata is available in [CITATION.cff](./CITATION.cff).
 
