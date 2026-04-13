@@ -16,7 +16,7 @@ Daily-updated dataset of available and resale .esq one-word domains from Unique 
 
 **Public extract:** 9,887 rows · **Live catalog:** 9,887 domains
 
-**Last updated:** 2026-04-12  
+**Last updated:** 2026-04-13  
 **Canonical page:** `https://unique.domains/domains/tld/esq`  
 **Best for:** founders, investors, studios
 
@@ -70,7 +70,7 @@ print(df.head())
 | nationwide.esq | available | $26.99    | $37.99        | 76             | 66     | 10     | name.com         |
 | will.esq       | resell    | —         | —             | 90             | 42     | 4      | GoDaddy.com, LLC |
 | power.esq      | premium   | $843.70   | $843.70       | 98             | 62     | 5      | namecheap        |
-| ethereal.esq   | available | $26.99    | $37.99        | 88             | 32     | 8      | name.com         |
+| ethereal.esq   | available | $26.99    | $37.99        | 88             | 31     | 8      | name.com         |
 | taxation.esq   | resell    | —         | —             | 66             | 9      | 8      | GoDaddy.com, LLC |
 | seventeen.esq  | premium   | $61.25    | $61.25        | 84             | 62     | 9      | name.com         |
 | curative.esq   | available | $26.99    | $37.99        | 92             | 27     | 8      | name.com         |
@@ -143,7 +143,7 @@ See [CHANGELOG.md](./CHANGELOG.md) for the latest snapshot metadata.
 
 Suggested citation:
 
-> Unique Domains. *Available .ESQ One-Word Domains*. Version 2026-04-12. Public GitHub extract for the exact Unique Domains search represented by this repository.
+> Unique Domains. *Available .ESQ One-Word Domains*. Version 2026-04-13. Public GitHub extract for the exact Unique Domains search represented by this repository.
 
 GitHub citation metadata is available in [CITATION.cff](./CITATION.cff).
 
