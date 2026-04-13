@@ -3,7 +3,7 @@
 <p align="left">
   <img alt="status" src="https://img.shields.io/badge/status-active-2ea44f">
   <img alt="updated" src="https://img.shields.io/badge/updated-daily-0969da">
-  <img alt="public extract" src="https://img.shields.io/badge/public%20extract-9%2C887%20rows-8250df">
+  <img alt="public extract" src="https://img.shields.io/badge/public%20extract-9%2C888%20rows-8250df">
   <img alt="live catalog" src="https://img.shields.io/badge/live%20catalog-9%2C887%20domains-6f42c1">
   <img alt="formats" src="https://img.shields.io/badge/formats-CSV%20%7C%20JSON-f59e0b">
   <img alt="license" src="https://img.shields.io/badge/license-see%20LICENSE-6b7280">
@@ -14,7 +14,7 @@ Daily-updated dataset of available and resale .esq one-word domains from Unique 
 > **Note:** this repository currently mirrors the full live catalog for this exact search.
 > Unique Domains counts can still change as the search refreshes.
 
-**Public extract:** 9,887 rows · **Live catalog:** 9,887 domains
+**Public extract:** 9,888 rows · **Live catalog:** 9,887 domains
 
 **Last updated:** 2026-04-13  
 **Canonical page:** `https://unique.domains/domains/tld/esq`  
@@ -43,8 +43,8 @@ This repository is the public extract for Unique Domains' .ESQ one-word domain c
 
 ### Files
 
-- `esq.csv` — public CSV extract (9,887 rows)
-- `esq.json` — public JSON extract (9,887 rows)
+- `esq.csv` — public CSV extract (9,888 rows)
+- `esq.json` — public JSON extract (9,888 rows)
 - `DATA_DICTIONARY.md` — field definitions for the exported files
 - `METHODOLOGY.md` — scope, refresh policy, and caveats
 - `CHANGELOG.md` — latest snapshot metadata
@@ -74,11 +74,11 @@ print(df.head())
 | taxation.esq   | resell    | —         | —             | 66             | 9      | 8      | GoDaddy.com, LLC |
 | seventeen.esq  | premium   | $61.25    | $61.25        | 84             | 62     | 9      | name.com         |
 | curative.esq   | available | $26.99    | $37.99        | 92             | 27     | 8      | name.com         |
-| free.esq       | premium   | $811.25   | $811.25       | 88             | 59     | 4      | name.com         |
-| adept.esq      | available | $26.99    | $37.99        | 92             | 26     | 5      | name.com         |
 | cloud.esq      | premium   | $1,688.70 | $1,688.70     | 70             | 59     | 5      | namecheap        |
-| remedial.esq   | available | $26.99    | $37.99        | 86             | 24     | 8      | name.com         |
+| adept.esq      | available | $26.99    | $37.99        | 92             | 26     | 5      | name.com         |
 | ace.esq        | premium   | $811.25   | $811.25       | 88             | 57     | 3      | name.com         |
+| remedial.esq   | available | $26.99    | $37.99        | 86             | 24     | 8      | name.com         |
+| free.esq       | premium   | $811.25   | $811.25       | 88             | 57     | 4      | name.com         |
 | critical.esq   | available | $26.99    | $37.99        | 82             | 24     | 8      | name.com         |
 | live.esq       | premium   | $811.25   | $811.25       | 108            | 56     | 4      | name.com         |
 | sincere.esq    | available | $26.99    | $37.99        | 72             | 22     | 7      | name.com         |
@@ -93,7 +93,7 @@ You are seeing the public sample. Unique Domains keeps the exact search context 
 
 | GitHub extract          | Unique Domains                                   |
 | ----------------------- | ------------------------------------------------ |
-| 9,887-row public sample | 9,887 live domains                               |
+| 9,888-row public sample | 9,887 live domains                               |
 | Static CSV / JSON       | live search and daily refresh                    |
 | Basic exported fields   | deeper price, demand, risk, and workflow context |
 | No persistence          | Radar, saved search, and alerts                  |
