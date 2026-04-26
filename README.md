@@ -1,22 +1,22 @@
-# Available .ESQ One-Word Domains (9,887)
+# Available .ESQ One-Word Domains (12,277)
 
 <p align="left">
   <img alt="status" src="https://img.shields.io/badge/status-active-2ea44f">
   <img alt="updated" src="https://img.shields.io/badge/updated-daily-0969da">
-  <img alt="public extract" src="https://img.shields.io/badge/public%20extract-9%2C888%20rows-8250df">
-  <img alt="live catalog" src="https://img.shields.io/badge/live%20catalog-9%2C887%20domains-6f42c1">
+  <img alt="public extract" src="https://img.shields.io/badge/public%20extract-1%2C000%20rows-8250df">
+  <img alt="live catalog" src="https://img.shields.io/badge/live%20catalog-12%2C277%20domains-6f42c1">
   <img alt="formats" src="https://img.shields.io/badge/formats-CSV%20%7C%20JSON-f59e0b">
   <img alt="license" src="https://img.shields.io/badge/license-see%20LICENSE-6b7280">
 </p>
 
-Daily-updated dataset of available and resale .esq one-word domains from Unique Domains.
+Daily-updated public extract of available and resale .esq one-word domains from Unique Domains.
 
-> **Note:** this repository currently mirrors the full live catalog for this exact search.
-> Unique Domains counts can still change as the search refreshes.
+> **Important:** this repository is a **public 1,000-row extract**, not the full live catalog.
+> The full live catalog for this exact search currently contains **12,277 domains** on the canonical page below.
 
-**Public extract:** 9,888 rows · **Live catalog:** 9,887 domains
+**Public extract:** 1,000 rows · **Live catalog:** 12,277 domains
 
-**Last updated:** 2026-04-13  
+**Last updated:** 2026-04-26  
 **Canonical page:** `https://unique.domains/domains/tld/esq`  
 **Best for:** founders, investors, studios
 
@@ -43,8 +43,8 @@ This repository is the public extract for Unique Domains' .ESQ one-word domain c
 
 ### Files
 
-- `esq.csv` — public CSV extract (9,888 rows)
-- `esq.json` — public JSON extract (9,888 rows)
+- `esq.csv` — public CSV extract (1,000 rows)
+- `esq.json` — public JSON extract (1,000 rows)
 - `DATA_DICTIONARY.md` — field definitions for the exported files
 - `METHODOLOGY.md` — scope, refresh policy, and caveats
 - `CHANGELOG.md` — latest snapshot metadata
@@ -62,28 +62,28 @@ print(df.head())
 
 ## 🗂️ Sample rows
 
-| domain         | status    | ask_price | renewal_price | attractiveness | demand | length | registrar        |
-| -------------- | --------- | --------- | ------------- | -------------- | ------ | ------ | ---------------- |
-| converse.esq   | available | $26.99    | $37.99        | 64             | 73     | 8      | name.com         |
-| data.esq       | resell    | —         | —             | 70             | 56     | 4      | GoDaddy.com, LLC |
-| easy.esq       | premium   | $811.25   | $811.25       | 128            | 68     | 4      | name.com         |
-| nationwide.esq | available | $26.99    | $37.99        | 76             | 66     | 10     | name.com         |
-| will.esq       | resell    | —         | —             | 90             | 42     | 4      | GoDaddy.com, LLC |
-| power.esq      | premium   | $843.70   | $843.70       | 98             | 62     | 5      | namecheap        |
-| ethereal.esq   | available | $26.99    | $37.99        | 88             | 31     | 8      | name.com         |
-| taxation.esq   | resell    | —         | —             | 66             | 9      | 8      | GoDaddy.com, LLC |
-| seventeen.esq  | premium   | $61.25    | $61.25        | 84             | 62     | 9      | name.com         |
-| curative.esq   | available | $26.99    | $37.99        | 92             | 27     | 8      | name.com         |
-| cloud.esq      | premium   | $1,688.70 | $1,688.70     | 70             | 59     | 5      | namecheap        |
-| adept.esq      | available | $26.99    | $37.99        | 92             | 26     | 5      | name.com         |
-| ace.esq        | premium   | $811.25   | $811.25       | 88             | 57     | 3      | name.com         |
-| remedial.esq   | available | $26.99    | $37.99        | 86             | 24     | 8      | name.com         |
-| free.esq       | premium   | $811.25   | $811.25       | 88             | 57     | 4      | name.com         |
-| critical.esq   | available | $26.99    | $37.99        | 82             | 24     | 8      | name.com         |
-| live.esq       | premium   | $811.25   | $811.25       | 108            | 56     | 4      | name.com         |
-| sincere.esq    | available | $26.99    | $37.99        | 72             | 22     | 7      | name.com         |
-| good.esq       | premium   | $811.25   | $811.25       | 82             | 55     | 4      | name.com         |
-| abundant.esq   | available | $26.99    | $37.99        | 80             | 21     | 8      | name.com         |
+| domain           | status    | ask_price | renewal_price | attractiveness | demand | length | registrar |
+| ---------------- | --------- | --------- | ------------- | -------------- | ------ | ------ | --------- |
+| neuroscience.esq | available | $26.99    | —             | 80             | 37     | 12     | name.com  |
+| makers.esq       | premium   | $111.25   | —             | 62             | 67     | 6      | name.com  |
+| commonground.esq | available | $26.99    | —             | 74             | 28     | 13     | name.com  |
+| online.esq       | premium   | $811.25   | —             | 70             | 62     | 7      | name.com  |
+| rekt.esq         | available | $26.99    | —             | 40             | 24     | 4      | name.com  |
+| regions.esq      | premium   | $198.75   | —             | 64             | 59     | 7      | name.com  |
+| investors.esq    | available | $26.99    | —             | 60             | 23     | 9      | name.com  |
+| agents.esq       | premium   | $411.25   | —             | 56             | 50     | 6      | name.com  |
+| unicorns.esq     | available | $26.99    | —             | 73             | 21     | 8      | name.com  |
+| Books.esq        | premium   | $1,818.60 | $1,818.60     | 52             | 49     | 5      | namecheap |
+| HarryPotter.esq  | available | $29.98    | —             | 72             | 20     | 12     | namecheap |
+| robots.esq       | premium   | $198.75   | —             | 62             | 47     | 6      | name.com  |
+| snaps.esq        | available | $26.99    | —             | 52             | 20     | 5      | name.com  |
+| skills.esq       | premium   | $811.25   | —             | 58             | 47     | 6      | name.com  |
+| outofoffice.esq  | available | $26.99    | —             | 61             | 19     | 13     | name.com  |
+| jobs.esq         | premium   | $1,623.75 | —             | 79             | 42     | 4      | name.com  |
+| whitewater.esq   | available | $26.99    | —             | 82             | 17     | 11     | name.com  |
+| coins.esq        | premium   | $411.25   | —             | 56             | 41     | 5      | name.com  |
+| jetlag.esq       | available | $26.99    | —             | 72             | 17     | 7      | name.com  |
+| Tools.esq        | premium   | $908.60   | $908.60       | 56             | 40     | 5      | namecheap |
 
 These rows are selected to show a more legible mix of visible asks, resale context, and status coverage from the exact live search.
 
@@ -93,7 +93,7 @@ You are seeing the public sample. Unique Domains keeps the exact search context 
 
 | GitHub extract          | Unique Domains                                   |
 | ----------------------- | ------------------------------------------------ |
-| 9,888-row public sample | 9,887 live domains                               |
+| 1,000-row public sample | 12,277 live domains                              |
 | Static CSV / JSON       | live search and daily refresh                    |
 | Basic exported fields   | deeper price, demand, risk, and workflow context |
 | No persistence          | Radar, saved search, and alerts                  |
@@ -143,7 +143,7 @@ See [CHANGELOG.md](./CHANGELOG.md) for the latest snapshot metadata.
 
 Suggested citation:
 
-> Unique Domains. *Available .ESQ One-Word Domains*. Version 2026-04-13. Public GitHub extract for the exact Unique Domains search represented by this repository.
+> Unique Domains. *Available .ESQ One-Word Domains*. Version 2026-04-26. Public GitHub extract for the exact Unique Domains search represented by this repository.
 
 GitHub citation metadata is available in [CITATION.cff](./CITATION.cff).
 
