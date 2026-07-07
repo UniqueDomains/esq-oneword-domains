@@ -14,10 +14,10 @@ Daily-updated public extract of available and resale .esq one-word domains from 
 > **Important:** this repository is a **public 1,000-row extract**, not the full live catalog.
 > The full live catalog for this exact search currently contains **12,870 domains** on the canonical page below.
 
-**Public extract:** 1,000 rows · **Live catalog:** 12,870 domains · **Median ask:** $102.78 · **High-demand under $2,500:** 0
+**Public extract:** 1,000 rows · **Live catalog:** 12,870 domains · **Median ask:** $148.37 · **High-demand under $2,500:** 0
 
-**Last updated:** 2026-05-27  
-**Canonical page:** `https://unique.domains/domains/tld/esq`  
+**Last updated:** 2026-07-07
+**Canonical page:** `https://unique.domains/domains/tld/esq`
 **Best for:** founders, investors, studios
 
 ---
@@ -43,13 +43,13 @@ This repository is the public extract for Unique Domains' .ESQ one-word domain c
 
 ### Files
 
-- `esq.csv` — public CSV extract (1,000 rows)
-- `esq.json` — public JSON extract (1,000 rows)
-- `DATA_DICTIONARY.md` — field definitions for the exported files
-- `METHODOLOGY.md` — scope, refresh policy, and caveats
-- `CHANGELOG.md` — latest snapshot metadata
-- `CITATION.cff` — machine-readable dataset citation metadata
-- `LICENSE` — terms for the public extract
+- `esq.csv`, public CSV extract (1,000 rows)
+- `esq.json`, public JSON extract (1,000 rows)
+- `DATA_DICTIONARY.md`, field definitions for the exported files
+- `METHODOLOGY.md`, scope, refresh policy, and caveats
+- `CHANGELOG.md`, latest snapshot metadata
+- `CITATION.cff`, machine-readable dataset citation metadata
+- `LICENSE`, terms for the public extract
 
 ## 🧭 Quick start
 
@@ -62,28 +62,28 @@ print(df.head())
 
 ## 🗂️ Sample rows
 
-| domain           | status    | ask_price | renewal_price | attractiveness | demand | length | registrar |
-| ---------------- | --------- | --------- | ------------- | -------------- | ------ | ------ | --------- |
-| neuroscience.esq | available | $26.99    | —             | 80             | 37     | 12     | name.com  |
-| makers.esq       | premium   | $111.25   | —             | 62             | 67     | 6      | name.com  |
-| commonground.esq | available | $26.99    | —             | 74             | 28     | 13     | name.com  |
-| online.esq       | premium   | $811.25   | —             | 70             | 62     | 7      | name.com  |
-| investors.esq    | available | $26.99    | —             | 60             | 23     | 9      | name.com  |
-| regions.esq      | premium   | $198.75   | —             | 64             | 59     | 7      | name.com  |
-| HarryPotter.esq  | available | $29.98    | —             | 72             | 20     | 12     | namecheap |
-| Books.esq        | premium   | $1,818.60 | $1,818.60     | 52             | 49     | 5      | namecheap |
-| snaps.esq        | available | $26.99    | —             | 52             | 20     | 5      | name.com  |
-| skills.esq       | premium   | $811.25   | —             | 58             | 47     | 6      | name.com  |
-| outofoffice.esq  | available | $26.99    | —             | 61             | 19     | 13     | name.com  |
-| jobs.esq         | premium   | $1,623.75 | —             | 79             | 42     | 4      | name.com  |
-| jetlag.esq       | available | $26.99    | —             | 72             | 17     | 7      | name.com  |
-| WiFi.esq         | premium   | $908.60   | $908.60       | 83             | 37     | 5      | namecheap |
-| protocols.esq    | available | $26.99    | —             | 50             | 17     | 9      | name.com  |
-| payments.esq     | premium   | $1,623.75 | —             | 58             | 33     | 8      | name.com  |
-| bonvoyage.esq    | available | $26.99    | —             | 88             | 16     | 10     | name.com  |
-| partners.esq     | premium   | $411.25   | —             | 61             | 31     | 8      | name.com  |
-| gearup.esq       | available | $26.99    | —             | 80             | 16     | 7      | name.com  |
-| solutions.esq    | premium   | $811.25   | —             | 56             | 31     | 9      | name.com  |
+| domain    | status    | ask_price | renewal_price | attractiveness | demand | length | registrar        |
+| --------- | --------- | --------- | ------------- | -------------- | ------ | ------ | ---------------- |
+| half.esq  | premium   | $1,623.75 | —             | high           | low    | 4      | name.com         |
+| bad.esq   | premium   | $811.25   | —             | high           | medium | 3      | name.com         |
+| great.esq | premium   | $811.25   | —             | high           | low    | 5      | name.com         |
+| clean.esq | premium   | $411.25   | —             | high           | low    | 5      | name.com         |
+| off.esq   | premium   | $811.25   | —             | high           | low    | 3      | name.com         |
+| Audi.esq  | available | $26.99    | —             | high           | high   | 4      | name.com         |
+| data.esq  | resell    | —         | —             | high           | medium | 4      | GoDaddy.com, LLC |
+| ana.esq   | premium   | $411.25   | —             | high           | low    | 3      | name.com         |
+| avon.esq  | available | $26.99    | —             | high           | low    | 4      | name.com         |
+| flew.esq  | available | $26.99    | —             | high           | low    | 4      | name.com         |
+| buy.esq   | premium   | $1,623.75 | —             | high           | medium | 3      | name.com         |
+| jolt.esq  | available | $26.99    | —             | high           | low    | 4      | name.com         |
+| CNN.esq   | premium   | $111.25   | —             | high           | low    | 3      | name.com         |
+| lego.esq  | available | $26.99    | —             | high           | high   | 4      | name.com         |
+| coy.esq   | premium   | $111.25   | $111.25       | medium         | low    | 3      | name.com         |
+| thou.esq  | available | $26.99    | $37.99        | medium         | low    | 4      | name.com         |
+| cue.esq   | premium   | $111.25   | —             | medium         | low    | 3      | name.com         |
+| ttyl.esq  | available | $26.99    | —             | low            | low    | 4      | name.com         |
+| dip.esq   | premium   | $198.75   | $198.75       | high           | low    | 3      | name.com         |
+| vain.esq  | available | $26.99    | —             | medium         | low    | 4      | name.com         |
 
 These rows are selected to show a more legible mix of visible asks, resale context, and status coverage from the exact live search.
 
@@ -105,27 +105,27 @@ If this sample already feels useful, Unique Domains is where the exact search be
 
 ## 🧱 Field summary
 
-- `domain` — Fully qualified domain name.
-- `status` — Current acquisition state for the domain in the public extract.
-- `purchase_price` — Visible purchase price when available.
-- `renewal_price` — Visible renewal price when available.
-- `attractiveness` — Composite naming score used as a decision-support signal.
-- `demand` — Relative buyer-pressure score when available.
-- `length` — Character count without the TLD.
-- `registrar` — Registrar name when known.
-- `created_at` — Creation timestamp when known.
-- `expires_at` — Expiry timestamp when known.
+- `domain`, Fully qualified domain name.
+- `status`, Current acquisition state for the domain in the public extract.
+- `purchase_price`, Visible purchase price when available.
+- `renewal_price`, Visible renewal price when available.
+- `attractiveness`, Public composite naming band used as a decision-support signal.
+- `demand`, Public buyer-pressure band when available.
+- `length`, Character count without the TLD.
+- `registrar`, Registrar name when known.
+- `created_at`, Creation timestamp when known.
+- `expires_at`, Expiry timestamp when known.
 
 See [DATA_DICTIONARY.md](./DATA_DICTIONARY.md) for full definitions and types.
 
 ## ⚠️ Methodology and caveats
 
-These domains are one-word names on the .esq extension. The set is broad, spanning concrete terms like radio.esq and fabric.esq, action words like pour.esq, and more abstract options like gusto.esq or script.esq. For founders, the main test is whether the word remains memorable and credible when paired with .esq. For investors, the main test is whether the low median ask of 102.78 leaves enough room for resale despite the narrower buyer pool of a niche TLD. Names that read cleanly, avoid confusion, and feel contextually aligned with .esq are usually easier to evaluate with confidence.
+Every domain in this set pairs the .esq extension with a single, everyday English word — half, out, just, christmas, okay, feel, bad, great, damn, sorry. That combination produces short, memorable names that read naturally in speech and are easy to spell, which matters whether you're shortlisting a brand name or comparing a portfolio of listings. Across 12,870 .esq domains tracked here, the median ask is close to $148, giving a practical price anchor before evaluating individual names.
 
-- Median ask is 102.78 across 12,870 .esq domains
-- One-word keywords range from literal to abstract
-- Best fits are names that read naturally with .esq
-- Check trademark overlap before treating a name as ownable
+- 12,870 one-word .esq domains in this set
+- Median asking price near $148 per domain
+- Everyday words: half, out, feel, great, sorry
+- Short, phonetic names easy to spell and say
 
 See [METHODOLOGY.md](./METHODOLOGY.md) for the full methodology reference.
 
@@ -142,7 +142,7 @@ See [CHANGELOG.md](./CHANGELOG.md) for the latest snapshot metadata.
 
 Suggested citation:
 
-> Unique Domains. *Available .ESQ One-Word Domains*. Version 2026-05-27. Public GitHub extract for the exact Unique Domains search represented by this repository.
+> Unique Domains. *Available .ESQ One-Word Domains*. Version 2026-07-07. Public GitHub extract for the exact Unique Domains search represented by this repository.
 
 GitHub citation metadata is available in [CITATION.cff](./CITATION.cff).
 
