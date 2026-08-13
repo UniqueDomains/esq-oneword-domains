@@ -1,10 +1,10 @@
-# Available .ESQ One-Word Domains (14,361)
+# Available .ESQ One-Word Domains (15,100)
 
 <p align="left">
   <img alt="status" src="https://img.shields.io/badge/status-active-2ea44f">
   <img alt="updated" src="https://img.shields.io/badge/updated-daily-0969da">
   <img alt="public extract" src="https://img.shields.io/badge/public%20extract-1%2C000%20rows-8250df">
-  <img alt="live catalog" src="https://img.shields.io/badge/live%20catalog-14%2C361%20domains-6f42c1">
+  <img alt="live catalog" src="https://img.shields.io/badge/live%20catalog-15%2C100%20domains-6f42c1">
   <img alt="formats" src="https://img.shields.io/badge/formats-CSV%20%7C%20JSON-f59e0b">
   <img alt="license" src="https://img.shields.io/badge/license-see%20LICENSE-6b7280">
 </p>
@@ -12,11 +12,11 @@
 Daily-updated public extract of available and resale .esq one-word domains from Unique Domains.
 
 > **Important:** this repository is a **public 1,000-row extract**, not the full live catalog.
-> The full live catalog for this exact search currently contains **14,361 domains** on the canonical page below.
+> The full live catalog for this exact search currently contains **15,100 domains** on the canonical page below.
 
-**Public extract:** 1,000 rows · **Live catalog:** 14,361 domains · **Median ask:** $119.85 · **High-demand under $2,500:** 32
+**Public extract:** 1,000 rows · **Live catalog:** 15,100 domains · **Median ask:** $115.83 · **High-demand under $2,500:** 32
 
-**Last updated:** 2026-08-12
+**Last updated:** 2026-08-13
 **Canonical page:** `https://unique.domains/domains/tld/esq`
 **Best for:** founders, investors, studios
 
@@ -64,6 +64,7 @@ print(df.head())
 
 | domain   | status    | ask_price | renewal_price | attractiveness | demand | length | registrar        |
 | -------- | --------- | --------- | ------------- | -------------- | ------ | ------ | ---------------- |
+| half.esq | premium   | $1,623.75 | —             | high           | low    | 4      | name.com         |
 | ague.esq | available | $25.98    | $29.98        | low            | low    | 4      | namecheap        |
 | data.esq | resell    | —         | —             | medium         | medium | 4      | GoDaddy.com, LLC |
 | ana.esq  | premium   | $411.25   | —             | high           | low    | 3      | name.com         |
@@ -83,7 +84,6 @@ print(df.head())
 | cue.esq  | premium   | $111.25   | —             | medium         | low    | 3      | name.com         |
 | ttyl.esq | available | $26.99    | —             | low            | low    | 4      | name.com         |
 | dip.esq  | premium   | $198.75   | $198.75       | high           | low    | 3      | name.com         |
-| vain.esq | available | $26.99    | —             | medium         | low    | 4      | name.com         |
 
 These rows are selected to show a more legible mix of visible asks, resale context, and status coverage from the exact live search.
 
@@ -93,7 +93,7 @@ You are seeing the public sample. Unique Domains keeps the exact search context 
 
 | GitHub extract          | Unique Domains                             |
 | ----------------------- | ------------------------------------------ |
-| 1,000-row public sample | 14,361 live domains                        |
+| 1,000-row public sample | 15,100 live domains                        |
 | Static CSV / JSON       | live search and daily refresh              |
 | Basic exported fields   | 32 high-demand names under $2,500          |
 | No persistence          | Radar, saved search, and alerts            |
@@ -142,7 +142,7 @@ See [CHANGELOG.md](./CHANGELOG.md) for the latest snapshot metadata.
 
 Suggested citation:
 
-> Unique Domains. *Available .ESQ One-Word Domains*. Version 2026-08-12. Public GitHub extract for the exact Unique Domains search represented by this repository.
+> Unique Domains. *Available .ESQ One-Word Domains*. Version 2026-08-13. Public GitHub extract for the exact Unique Domains search represented by this repository.
 
 GitHub citation metadata is available in [CITATION.cff](./CITATION.cff).
 
