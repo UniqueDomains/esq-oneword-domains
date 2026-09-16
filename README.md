@@ -16,7 +16,7 @@ Daily-updated public extract of available and resale .esq one-word domains from 
 
 **Public extract:** 1,000 rows · **Live catalog:** 25,689 domains · **Median ask:** $83.34 · **High-demand under $2,500:** 42
 
-**Last updated:** 2026-09-15
+**Last updated:** 2026-09-16
 **Canonical page:** `https://unique.domains/domains/tld/esq`
 **Best for:** founders, investors, studios
 
@@ -62,28 +62,28 @@ print(df.head())
 
 ## 🗂️ Sample rows
 
-| domain    | status    | ask_price | renewal_price | attractiveness | demand | length | registrar        |
-| --------- | --------- | --------- | ------------- | -------------- | ------ | ------ | ---------------- |
-| half.esq  | premium   | $1,623.75 | —             | high           | low    | 4      | name.com         |
-| bad.esq   | premium   | $811.25   | —             | high           | medium | 3      | name.com         |
-| great.esq | premium   | $811.25   | —             | high           | low    | 5      | name.com         |
-| clean.esq | premium   | $411.25   | —             | high           | low    | 5      | name.com         |
-| off.esq   | premium   | $811.25   | —             | high           | low    | 3      | name.com         |
-| ague.esq  | available | $25.98    | $29.98        | low            | low    | 4      | namecheap        |
-| data.esq  | resell    | —         | —             | medium         | medium | 4      | GoDaddy.com, LLC |
-| ana.esq   | premium   | $411.25   | —             | high           | low    | 3      | name.com         |
-| arum.esq  | available | $25.98    | $29.98        | low            | low    | 4      | namecheap        |
-| arc.esq   | premium   | $811.25   | $811.25       | medium         | medium | 3      | name.com         |
-| Audi.esq  | available | $26.99    | —             | high           | high   | 4      | name.com         |
-| avon.esq  | available | $26.99    | —             | high           | low    | 4      | name.com         |
-| buy.esq   | premium   | $1,688.70 | $1,688.70     | medium         | medium | 3      | namecheap        |
-| flew.esq  | available | $26.99    | —             | high           | low    | 4      | name.com         |
-| clv.esq   | premium   | $111.25   | $111.25       | low            | low    | 3      | name.com         |
-| jolt.esq  | available | $26.99    | —             | high           | low    | 4      | name.com         |
-| CNN.esq   | premium   | $111.25   | —             | high           | low    | 3      | name.com         |
-| lego.esq  | available | $26.99    | —             | high           | high   | 4      | name.com         |
-| coy.esq   | premium   | $111.25   | $111.25       | medium         | low    | 3      | name.com         |
-| thou.esq  | available | $26.99    | $37.99        | medium         | low    | 4      | name.com         |
+| domain   | status    | ask_price | renewal_price | attractiveness | demand | length | registrar        |
+| -------- | --------- | --------- | ------------- | -------------- | ------ | ------ | ---------------- |
+| ague.esq | available | $25.98    | $29.98        | low            | low    | 4      | namecheap        |
+| data.esq | resell    | —         | —             | medium         | medium | 4      | GoDaddy.com, LLC |
+| ana.esq  | premium   | $411.25   | —             | high           | low    | 3      | name.com         |
+| arum.esq | available | $25.98    | $29.98        | low            | low    | 4      | namecheap        |
+| arc.esq  | premium   | $811.25   | $811.25       | medium         | medium | 3      | name.com         |
+| Audi.esq | available | $26.99    | —             | high           | high   | 4      | name.com         |
+| bad.esq  | premium   | $811.25   | —             | high           | medium | 3      | name.com         |
+| avon.esq | available | $26.99    | —             | high           | low    | 4      | name.com         |
+| buy.esq  | premium   | $1,688.70 | $1,688.70     | medium         | medium | 3      | namecheap        |
+| flew.esq | available | $26.99    | —             | high           | low    | 4      | name.com         |
+| clv.esq  | premium   | $111.25   | $111.25       | low            | low    | 3      | name.com         |
+| jolt.esq | available | $26.99    | —             | high           | low    | 4      | name.com         |
+| CNN.esq  | premium   | $111.25   | —             | high           | low    | 3      | name.com         |
+| lego.esq | available | $26.99    | —             | high           | high   | 4      | name.com         |
+| coy.esq  | premium   | $111.25   | $111.25       | medium         | low    | 3      | name.com         |
+| thou.esq | available | $26.99    | $37.99        | medium         | low    | 4      | name.com         |
+| cue.esq  | premium   | $111.25   | —             | medium         | low    | 3      | name.com         |
+| ttyl.esq | available | $26.99    | —             | low            | low    | 4      | name.com         |
+| dip.esq  | premium   | $198.75   | $198.75       | high           | low    | 3      | name.com         |
+| vain.esq | available | $26.99    | —             | medium         | low    | 4      | name.com         |
 
 These rows are selected to show a more legible mix of visible asks, resale context, and status coverage from the exact live search.
 
@@ -115,6 +115,7 @@ If this sample already feels useful, Unique Domains is where the exact search be
 - `registrar`, Registrar name when known.
 - `created_at`, Creation timestamp when known.
 - `expires_at`, Expiry timestamp when known.
+- `status_verified_at`, When status was last established against the registry. Null means never checked.
 
 See [DATA_DICTIONARY.md](./DATA_DICTIONARY.md) for full definitions and types.
 
@@ -132,6 +133,7 @@ See [METHODOLOGY.md](./METHODOLOGY.md) for the full methodology reference.
 ## 🔄 Update policy
 
 - This repository is refreshed regularly from the same export pipeline used for public dataset repos.
+- The snapshot date above is when this file was written, not when each row was checked. Read `status_verified_at` for that: a name whose status was last established months ago is exported with its real date rather than the snapshot's.
 - The README count targets the live catalog count from the public landing response when available.
 - The CSV and JSON files contain the public extract only and may not match the full live catalog size.
 - Stable historical references should be published via GitHub Releases outside this repository snapshot.
@@ -142,7 +144,7 @@ See [CHANGELOG.md](./CHANGELOG.md) for the latest snapshot metadata.
 
 Suggested citation:
 
-> Unique Domains. *Available .ESQ One-Word Domains*. Version 2026-09-15. Public GitHub extract for the exact Unique Domains search represented by this repository.
+> Unique Domains. *Available .ESQ One-Word Domains*. Version 2026-09-16. Public GitHub extract for the exact Unique Domains search represented by this repository.
 
 GitHub citation metadata is available in [CITATION.cff](./CITATION.cff).
 
