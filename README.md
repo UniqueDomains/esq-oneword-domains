@@ -16,7 +16,7 @@ Daily-updated public extract of available and resale .esq one-word domains from 
 
 **Public extract:** 1,000 rows · **Live catalog:** 32,788 domains · **Median ask:** $74.74 · **High-demand under $2,500:** 34
 
-**Last updated:** 2026-09-23
+**Last updated:** 2026-09-24
 **Canonical page:** `https://unique.domains/domains/tld/esq`
 **Best for:** founders, investors, studios
 
@@ -64,7 +64,6 @@ print(df.head())
 
 | domain   | status    | ask_price | renewal_price | attractiveness | demand | length | registrar        |
 | -------- | --------- | --------- | ------------- | -------------- | ------ | ------ | ---------------- |
-| half.esq | premium   | $1,623.75 | —             | high           | low    | 4      | name.com         |
 | ague.esq | available | $25.98    | $29.98        | low            | low    | 4      | namecheap        |
 | data.esq | resell    | —         | —             | medium         | low    | 4      | GoDaddy.com, LLC |
 | ana.esq  | premium   | $411.25   | —             | high           | low    | 3      | name.com         |
@@ -79,11 +78,12 @@ print(df.head())
 | jolt.esq | available | $26.99    | —             | high           | low    | 4      | name.com         |
 | cnn.esq  | premium   | $111.25   | —             | high           | low    | 3      | name.com         |
 | lego.esq | available | $26.99    | —             | high           | high   | 4      | name.com         |
-| coy.esq  | premium   | $111.25   | $111.25       | medium         | low    | 3      | name.com         |
+| coy.esq  | premium   | $115.70   | $115.70       | low            | low    | 3      | namecheap        |
 | thou.esq | available | $25.98    | $29.98        | low            | low    | 4      | namecheap        |
 | cue.esq  | premium   | $111.25   | —             | medium         | low    | 3      | name.com         |
 | ttyl.esq | available | $26.99    | —             | low            | low    | 4      | name.com         |
 | dip.esq  | premium   | $198.75   | $198.75       | high           | low    | 3      | name.com         |
+| vain.esq | available | $25.98    | $29.98        | low            | low    | 4      | namecheap        |
 
 These rows are selected to show a more legible mix of visible asks, resale context, and status coverage from the exact live search.
 
@@ -144,7 +144,7 @@ See [CHANGELOG.md](./CHANGELOG.md) for the latest snapshot metadata.
 
 Suggested citation:
 
-> Unique Domains. *Available .ESQ One-Word Domains*. Version 2026-09-23. Public GitHub extract for the exact Unique Domains search represented by this repository.
+> Unique Domains. *Available .ESQ One-Word Domains*. Version 2026-09-24. Public GitHub extract for the exact Unique Domains search represented by this repository.
 
 GitHub citation metadata is available in [CITATION.cff](./CITATION.cff).
 
