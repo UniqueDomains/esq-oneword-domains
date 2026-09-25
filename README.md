@@ -1,10 +1,10 @@
-# Available .ESQ One-Word Domains (32,788)
+# Available .ESQ One-Word Domains (33,757)
 
 <p align="left">
   <img alt="status" src="https://img.shields.io/badge/status-active-2ea44f">
   <img alt="updated" src="https://img.shields.io/badge/updated-daily-0969da">
   <img alt="public extract" src="https://img.shields.io/badge/public%20extract-1%2C000%20rows-8250df">
-  <img alt="live catalog" src="https://img.shields.io/badge/live%20catalog-32%2C788%20domains-6f42c1">
+  <img alt="live catalog" src="https://img.shields.io/badge/live%20catalog-33%2C757%20domains-6f42c1">
   <img alt="formats" src="https://img.shields.io/badge/formats-CSV%20%7C%20JSON-f59e0b">
   <img alt="license" src="https://img.shields.io/badge/license-see%20LICENSE-6b7280">
 </p>
@@ -12,11 +12,11 @@
 Daily-updated public extract of available and resale .esq one-word domains from Unique Domains.
 
 > **Important:** this repository is a **public 1,000-row extract**, not the full live catalog.
-> The full live catalog for this exact search currently contains **32,788 domains** on the canonical page below.
+> The full live catalog for this exact search currently contains **33,757 domains** on the canonical page below.
 
-**Public extract:** 1,000 rows · **Live catalog:** 32,788 domains · **Median ask:** $74.74 · **High-demand under $2,500:** 34
+**Public extract:** 1,000 rows · **Live catalog:** 33,757 domains · **Median ask:** $73.96 · **High-demand under $2,500:** 32
 
-**Last updated:** 2026-09-24
+**Last updated:** 2026-09-25
 **Canonical page:** `https://unique.domains/domains/tld/esq`
 **Best for:** founders, investors, studios
 
@@ -62,28 +62,28 @@ print(df.head())
 
 ## 🗂️ Sample rows
 
-| domain   | status    | ask_price | renewal_price | attractiveness | demand | length | registrar        |
-| -------- | --------- | --------- | ------------- | -------------- | ------ | ------ | ---------------- |
-| ague.esq | available | $25.98    | $29.98        | low            | low    | 4      | namecheap        |
-| data.esq | resell    | —         | —             | medium         | low    | 4      | GoDaddy.com, LLC |
-| ana.esq  | premium   | $411.25   | —             | high           | low    | 3      | name.com         |
-| arum.esq | available | $25.98    | $29.98        | low            | low    | 4      | namecheap        |
-| arc.esq  | premium   | $811.25   | $811.25       | medium         | medium | 3      | name.com         |
-| audi.esq | available | $26.99    | —             | high           | high   | 4      | name.com         |
-| bad.esq  | premium   | $811.25   | $811.25       | medium         | low    | 3      | name.com         |
-| avon.esq | available | $26.99    | —             | high           | low    | 4      | name.com         |
-| buy.esq  | premium   | $1,688.70 | $1,688.70     | medium         | low    | 3      | namecheap        |
-| flew.esq | available | $26.99    | —             | high           | low    | 4      | name.com         |
-| clv.esq  | premium   | $111.25   | $111.25       | low            | low    | 3      | name.com         |
-| jolt.esq | available | $26.99    | —             | high           | low    | 4      | name.com         |
-| cnn.esq  | premium   | $111.25   | —             | high           | low    | 3      | name.com         |
-| lego.esq | available | $26.99    | —             | high           | high   | 4      | name.com         |
-| coy.esq  | premium   | $115.70   | $115.70       | low            | low    | 3      | namecheap        |
-| thou.esq | available | $25.98    | $29.98        | low            | low    | 4      | namecheap        |
-| cue.esq  | premium   | $111.25   | —             | medium         | low    | 3      | name.com         |
-| ttyl.esq | available | $26.99    | —             | low            | low    | 4      | name.com         |
-| dip.esq  | premium   | $198.75   | $198.75       | high           | low    | 3      | name.com         |
-| vain.esq | available | $25.98    | $29.98        | low            | low    | 4      | namecheap        |
+| domain   | status    | ask_price | renewal_price | attractiveness | demand | length | registrar |
+| -------- | --------- | --------- | ------------- | -------------- | ------ | ------ | --------- |
+| ague.esq | available | $25.98    | $29.98        | medium         | low    | 4      | namecheap |
+| act.esq  | premium   | $1,623.75 | —             | high           | low    | 3      | name.com  |
+| ahuh.esq | available | $26.99    | —             | high           | low    | 4      | name.com  |
+| ana.esq  | premium   | $411.25   | —             | high           | low    | 3      | name.com  |
+| arum.esq | available | $25.98    | $29.98        | medium         | low    | 4      | namecheap |
+| arc.esq  | premium   | $811.25   | $811.25       | high           | medium | 3      | name.com  |
+| audi.esq | available | $26.99    | —             | high           | high   | 4      | name.com  |
+| ava.esq  | premium   | $411.25   | —             | high           | medium | 3      | name.com  |
+| avon.esq | available | $26.99    | —             | high           | low    | 4      | name.com  |
+| axe.esq  | premium   | $111.25   | —             | high           | low    | 3      | name.com  |
+| dewy.esq | available | $25.98    | $29.98        | medium         | low    | 4      | namecheap |
+| azo.esq  | premium   | $111.25   | $111.25       | high           | low    | 3      | name.com  |
+| ecru.esq | available | $25.98    | $29.98        | medium         | low    | 4      | namecheap |
+| clv.esq  | premium   | $111.25   | $111.25       | high           | low    | 3      | name.com  |
+| eyry.esq | available | $25.98    | $29.98        | high           | low    | 4      | namecheap |
+| cnn.esq  | premium   | $111.25   | —             | high           | low    | 3      | name.com  |
+| flee.esq | available | $26.99    | —             | high           | low    | 4      | name.com  |
+| cue.esq  | premium   | $111.25   | —             | high           | low    | 3      | name.com  |
+| flew.esq | available | $26.99    | —             | high           | low    | 4      | name.com  |
+| cxx.esq  | premium   | $111.25   | $111.25       | high           | low    | 3      | name.com  |
 
 These rows are selected to show a more legible mix of visible asks, resale context, and status coverage from the exact live search.
 
@@ -93,9 +93,9 @@ You are seeing the public sample. Unique Domains keeps the exact search context 
 
 | GitHub extract          | Unique Domains                             |
 | ----------------------- | ------------------------------------------ |
-| 1,000-row public sample | 32,788 live domains                        |
+| 1,000-row public sample | 33,757 live domains                        |
 | Static CSV / JSON       | live search and daily refresh              |
-| Basic exported fields   | 34 high-demand names under $2,500          |
+| Basic exported fields   | 32 high-demand names under $2,500          |
 | No persistence          | Radar, saved search, and alerts            |
 | No founder workflow     | Project, shortlist, and next-step workflow |
 
@@ -144,7 +144,7 @@ See [CHANGELOG.md](./CHANGELOG.md) for the latest snapshot metadata.
 
 Suggested citation:
 
-> Unique Domains. *Available .ESQ One-Word Domains*. Version 2026-09-24. Public GitHub extract for the exact Unique Domains search represented by this repository.
+> Unique Domains. *Available .ESQ One-Word Domains*. Version 2026-09-25. Public GitHub extract for the exact Unique Domains search represented by this repository.
 
 GitHub citation metadata is available in [CITATION.cff](./CITATION.cff).
 
