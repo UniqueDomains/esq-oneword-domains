@@ -1,10 +1,10 @@
-# Available .ESQ One-Word Domains (25,022)
+# Available .ESQ One-Word Domains (25,512)
 
 <p align="left">
   <img alt="status" src="https://img.shields.io/badge/status-active-2ea44f">
   <img alt="updated" src="https://img.shields.io/badge/updated-daily-0969da">
   <img alt="public extract" src="https://img.shields.io/badge/public%20extract-1%2C000%20rows-8250df">
-  <img alt="live catalog" src="https://img.shields.io/badge/live%20catalog-25%2C022%20domains-6f42c1">
+  <img alt="live catalog" src="https://img.shields.io/badge/live%20catalog-25%2C512%20domains-6f42c1">
   <img alt="formats" src="https://img.shields.io/badge/formats-CSV%20%7C%20JSON-f59e0b">
   <img alt="license" src="https://img.shields.io/badge/license-see%20LICENSE-6b7280">
 </p>
@@ -12,9 +12,9 @@
 Daily-updated public extract of available and resale .esq one-word domains from Unique Domains.
 
 > **Important:** this repository is a **public 1,000-row extract**, not the full live catalog.
-> The full live catalog for this exact search currently contains **25,022 domains** on the canonical page below.
+> The full live catalog for this exact search currently contains **25,512 domains** on the canonical page below.
 
-**Public extract:** 1,000 rows · **Live catalog:** 25,022 domains · **Median ask:** $101.93 · **High-demand under $2,500:** 65
+**Public extract:** 1,000 rows · **Live catalog:** 25,512 domains · **Median ask:** $100.85 · **High-demand under $2,500:** 67
 
 **Last updated:** 2026-09-28
 **Canonical page:** `https://unique.domains/domains/tld/esq`
@@ -62,28 +62,28 @@ print(df.head())
 
 ## 🗂️ Sample rows
 
-| domain   | status    | ask_price | renewal_price | attractiveness | demand | length | registrar |
-| -------- | --------- | --------- | ------------- | -------------- | ------ | ------ | --------- |
-| apia.esq | available | $25.98    | $29.98        | medium         | low    | 4      | namecheap |
-| ali.esq  | premium   | $843.70   | $843.70       | high           | high   | 3      | namecheap |
-| arda.esq | available | $25.98    | $29.98        | high           | low    | 4      | namecheap |
-| apt.esq  | premium   | $198.75   | $198.75       | high           | low    | 3      | name.com  |
-| bmdo.esq | available | $25.98    | $29.98        | medium         | low    | 4      | namecheap |
-| axe.esq  | premium   | $111.25   | —             | high           | low    | 3      | name.com  |
-| clad.esq | available | $25.98    | $29.98        | high           | low    | 4      | namecheap |
-| bai.esq  | premium   | $206.70   | $206.70       | high           | low    | 3      | namecheap |
-| clog.esq | available | $26.99    | $37.99        | high           | low    | 4      | name.com  |
-| bat.esq  | premium   | $427.70   | $427.70       | high           | low    | 3      | namecheap |
-| conk.esq | available | $25.98    | $29.98        | medium         | low    | 4      | namecheap |
-| bce.esq  | premium   | $111.25   | —             | high           | low    | 3      | name.com  |
-| cram.esq | available | $25.98    | $29.98        | high           | low    | 4      | namecheap |
-| bow.esq  | premium   | $206.70   | $206.70       | high           | low    | 3      | namecheap |
-| darn.esq | available | $26.99    | $37.99        | high           | low    | 4      | name.com  |
-| cxl.esq  | premium   | $111.25   | $111.25       | high           | low    | 3      | name.com  |
-| dolt.esq | available | $25.98    | $29.98        | medium         | low    | 4      | namecheap |
-| ear.esq  | premium   | $198.75   | —             | high           | low    | 3      | name.com  |
-| drab.esq | available | $25.98    | $29.98        | medium         | low    | 4      | namecheap |
-| fab.esq  | premium   | $198.75   | $198.75       | high           | low    | 3      | name.com  |
+| domain   | status    | ask_price | renewal_price | attractiveness | demand | length | registrar   |
+| -------- | --------- | --------- | ------------- | -------------- | ------ | ------ | ----------- |
+| apia.esq | available | $25.98    | $29.98        | medium         | low    | 4      | namecheap   |
+| ali.esq  | premium   | $843.70   | $843.70       | high           | high   | 3      | namecheap   |
+| arda.esq | available | $25.98    | $29.98        | high           | low    | 4      | namecheap   |
+| apt.esq  | premium   | $198.75   | $198.75       | high           | low    | 3      | name.com    |
+| bmdo.esq | available | $25.98    | $29.98        | medium         | low    | 4      | namecheap   |
+| axe.esq  | premium   | $111.25   | —             | high           | low    | 3      | name.com    |
+| clad.esq | available | $25.98    | $29.98        | high           | low    | 4      | namecheap   |
+| bai.esq  | premium   | $206.70   | $206.70       | high           | low    | 3      | namecheap   |
+| clog.esq | available | $26.99    | $37.99        | high           | low    | 4      | name.com    |
+| bat.esq  | premium   | $427.70   | $427.70       | high           | low    | 3      | namecheap   |
+| conk.esq | available | $25.98    | $29.98        | medium         | low    | 4      | namecheap   |
+| bce.esq  | premium   | $111.25   | —             | high           | low    | 3      | name.com    |
+| cram.esq | available | $25.98    | $29.98        | high           | low    | 4      | namecheap   |
+| bow.esq  | premium   | $206.70   | $206.70       | high           | low    | 3      | namecheap   |
+| darn.esq | available | $26.99    | $37.99        | high           | low    | 4      | name.com    |
+| cdp.esq  | premium   | $89.20    | —             | high           | low    | 3      | unstoppable |
+| dolt.esq | available | $25.98    | $29.98        | medium         | low    | 4      | namecheap   |
+| cxl.esq  | premium   | $111.25   | $111.25       | high           | low    | 3      | name.com    |
+| drab.esq | available | $25.98    | $29.98        | medium         | low    | 4      | namecheap   |
+| ear.esq  | premium   | $198.75   | —             | high           | low    | 3      | name.com    |
 
 These rows are selected to show a more legible mix of visible asks, resale context, and status coverage from the exact live search.
 
@@ -93,9 +93,9 @@ You are seeing the public sample. Unique Domains keeps the exact search context 
 
 | GitHub extract          | Unique Domains                             |
 | ----------------------- | ------------------------------------------ |
-| 1,000-row public sample | 25,022 live domains                        |
+| 1,000-row public sample | 25,512 live domains                        |
 | Static CSV / JSON       | live search and daily refresh              |
-| Basic exported fields   | 65 high-demand names under $2,500          |
+| Basic exported fields   | 67 high-demand names under $2,500          |
 | No persistence          | Radar, saved search, and alerts            |
 | No founder workflow     | Project, shortlist, and next-step workflow |
 
